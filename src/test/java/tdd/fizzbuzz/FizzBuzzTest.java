@@ -37,5 +37,16 @@ public class FizzBuzzTest {
         assertEquals("Buzz", order);
     }
 
+    @Test
+    void should_return_Buzz_when_multiple_of_7_is_given(){
+        //Given
+        int number = 7;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //When
+        String order = fizzBuzz.countOff(number);
+        //Then
+        assertEquals("Whizz", order);
+    }
+
 
 }
