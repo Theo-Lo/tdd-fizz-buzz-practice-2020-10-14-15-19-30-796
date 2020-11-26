@@ -38,7 +38,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_Buzz_when_multiple_of_7_is_given(){
+    void should_return_Whizz_when_multiple_of_7_is_given(){
         //Given
         int number = 7;
         FizzBuzz fizzBuzz = new FizzBuzz();
@@ -47,6 +47,4 @@ public class FizzBuzzTest {
         //Then
         assertEquals("Whizz", order);
     }
-
-
 }
