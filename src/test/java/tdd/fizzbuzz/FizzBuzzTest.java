@@ -25,4 +25,6 @@ public class FizzBuzzTest {
         //Then
         assertEquals("Fizz", order);
     }
+
+
 }
